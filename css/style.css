@@ -48,6 +48,7 @@ p{
     text-decoration: none;
     color: var(--white-color);
     border: 1px solid var(--pink-color);
+    border-radius: .3rem;
 }
 
 .my-btn:hover{
@@ -57,4 +58,23 @@ p{
 
 .navbar .nav-item .nav-link:hover{
     color: var(--pink-color);
+}
+
+
+/* --- home section css ---- */
+
+.home .row{
+    background: var(--light-pink-color);
+}
+
+
+/* --- carusel btn indecators ---- */
+
+
+.carousel-indicators [data-bs-target] {
+    background-color: var(--pink-color);
+}
+
+.price{
+    color: var(--pink-color)
 }
