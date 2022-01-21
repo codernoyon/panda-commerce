@@ -1,0 +1,60 @@
+/* ---- font from google fonts ---- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,500&display=swap');
+
+
+/* ----Colors pallet ---  */
+:root{
+
+    /* --- solid color --- */
+    --pink-color: #FF136F;
+    --orange-color: #FF9D00;
+    --light-pink-color: #FEEAE9;
+    --light-gray-color: #F1F1F1;
+    --black-color: #1F1F1F;
+    --light-black-color: #4E4E4E;
+    --white-color: #FFF;
+    
+    /* --- Gradient-colors ---- */
+    --pink-gradient-color: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    --blue-gradient-color: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+    --yellow-gradient-color: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+
+}
+
+*{
+    transition: .3s linear ease-in;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-weight: 700;
+}
+
+p{
+    color: var(--light-black-color);
+}
+
+.section-title{
+    font-weight: 600;
+}
+
+.my-btn{
+    background: var(--pink-gradient-color);
+    padding: .5rem 1.5rem;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--white-color);
+    border: 1px solid var(--pink-color);
+}
+
+.my-btn:hover{
+    color: var(--pink-color);
+    background: transparent;
+}
+
+.navbar .nav-item .nav-link:hover{
+    color: var(--pink-color);
+}
